@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="SQLiteNetExtensions.Async" Version="2.0.0" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="View\" />
+    <Folder Include="Services\Course\" />
+    <Folder Include="Services\WebApiServices\Response\" />
   </ItemGroup>
 </Project>
