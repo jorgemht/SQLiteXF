@@ -1,13 +1,14 @@
-﻿using System;
-using System.IO;
-using SQLite.Droid.Interface;
-using SQLite.Storage;
+﻿using SQLite.Droid.Interface;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(SqliteAndroid))]
 namespace SQLite.Droid.Interface
 {
-    public class SqliteAndroid : ISqlite
+    using Services.Sqlite;
+    using System;
+    using System.IO;
+
+    public class SqliteAndroid : IPathService
     {
         public SQLiteAsyncConnection GetAsyncConnection() => new SQLiteAsyncConnection(GetPath());
 

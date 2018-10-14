@@ -1,17 +1,20 @@
-using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-[assembly: XamlCompilation (XamlCompilationOptions.Compile)]
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace SQLite
 {
-	public partial class App : Application
+    using Model;
+    using Services.Sqlite;
+    using View;
+
+    public partial class App : Application
 	{
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+            MainPage = new HomeView();
 		}
 
 		protected override void OnStart ()

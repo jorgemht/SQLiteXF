@@ -1,4 +1,4 @@
-﻿namespace SQLite.Storage
+﻿namespace SQLite.Services.Sqlite
 {
     public interface IKeyObject
     {

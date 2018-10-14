@@ -1,6 +1,6 @@
-﻿namespace SQLite.Storage
+﻿namespace SQLite.Services.Sqlite
 {
-    public interface ISqlite 
+    public interface IPathService
     {
         SQLiteAsyncConnection GetAsyncConnection();
         SQLiteConnection GetConnection();

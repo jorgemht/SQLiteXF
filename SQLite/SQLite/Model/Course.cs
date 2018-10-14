@@ -1,6 +1,6 @@
 ﻿namespace SQLite.Model
 {
-    using Storage;
+    using Services.Sqlite;
 
     public class Course : ObservableObject, IKeyObject
     {
