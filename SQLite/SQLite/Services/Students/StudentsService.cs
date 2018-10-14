@@ -1,14 +1,29 @@
 ﻿namespace SQLite.Services.Student
 {
+    using Exceptions;
+    using System;
+    using Request;
     using System.Collections.Generic;
     using System.Threading.Tasks;
     using Model;
 
     public class StudentsService : IStudentsService
     {
-        public Task<List<Student>> GetAllStudents()
+        readonly IRequestService _requestService;
+
+        public StudentsService(IRequestService requestService)
         {
-            throw new System.NotImplementedException();
+            _requestService = requestService;
+        }
+
+        public Task<IEnumerable<Student>> GetAllStudents()
+        {
+            var builder = new UriBuilder(AppSettings.defaulStudentsFileUrl);
+            builder.AppendToPath("cities");
+
+            var uri = builder.ToString();
+
+            return _requestService.GetAsync<IEnumerable<Student>>(uri);
         }
 
         public Task<Student> GetStudentById(int studentId)

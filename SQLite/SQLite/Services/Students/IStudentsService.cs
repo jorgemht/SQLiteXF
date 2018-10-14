@@ -7,7 +7,7 @@
     public interface IStudentsService
     {
         Task<Student> GetStudentById(int studentId);
-        Task<List<Student>> GetAllStudents();
+        Task<IEnumerable<Student>> GetAllStudents();
         Task<Student> LookForStudent(string query);
     }
 }

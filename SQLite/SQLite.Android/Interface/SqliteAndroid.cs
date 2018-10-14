@@ -16,9 +16,8 @@ namespace SQLite.Droid.Interface
 
         private string GetPath()
         {
-            var sqliteFilename = "SQLite.db3";
             string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal); // Documents folder
-            var path = Path.Combine(documentsPath, sqliteFilename);
+            var path = Path.Combine(documentsPath, AppSettings.DatabaseName);
             return path;
         }
     }

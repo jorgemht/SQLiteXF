@@ -12,7 +12,6 @@
     using System.Text;
     using System.Threading.Tasks;
 
-
     public class RequestService : IRequestService
     {
         readonly JsonSerializerSettings serializerSettings;

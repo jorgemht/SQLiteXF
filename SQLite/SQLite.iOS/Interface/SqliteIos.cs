@@ -16,10 +16,9 @@ namespace SQLite.iOS.Interface
 
         private string GetPath()
         {
-            var sqliteFilename = "SQLite.db3";
             var documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal); // Documents folder
             var libraryPath = Path.Combine(documentsPath, "..", "Library"); //  Library folder
-            return Path.Combine(libraryPath, sqliteFilename);
+            return Path.Combine(libraryPath, AppSettings.DatabaseName);
         }
     }
 }
