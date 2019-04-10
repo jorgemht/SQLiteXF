@@ -1,6 +1,8 @@
 ﻿namespace SQLite.ViewModel.Base
 {
-    public class ViewModelBase
+    using MvvmHelpers;
+
+    public class ViewModelBase : BaseViewModel
     {
     }
 }
