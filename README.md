@@ -15,6 +15,7 @@ This project uses some third-party assets with a license that requires attributi
 
 - [MVVM Helpers](https://www.nuget.org/packages/Refractored.MvvmHelpers/) : by James Montemagno
 - [Xamarin.Essentials ](https://www.nuget.org/packages/Xamarin.Essentials) : by James Montemagno
+- [Sqlite net pcl](https://www.nuget.org/packages/sqlite-net-pcl/) : by Frank A. Krueger 
 
 # Clean and Rebuild
 
