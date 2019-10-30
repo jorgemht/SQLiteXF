@@ -4,7 +4,7 @@
 
 Example using SQLite in Xamarin Forms 4.X
  
-# Tools used
+### Tools used
 * [Visual Studio for mac and windows](https://visualstudio.microsoft.com)
 * [QuickTime Player](https://support.apple.com/es-es/HT201066) - For mirroring iOS devices.
 * [LiveXAML](http://www.livexaml.com) - Live simulator updates for your XAML code 
