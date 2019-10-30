@@ -1,5 +1,8 @@
+# Currently updating the project, the solution is incomplete
+
 # SQLite
-Example using SQLite in Xamarin Forms 3.6
+
+Example using SQLite in Xamarin Forms 4.X
  
 # Tools used
 * [Visual Studio for mac and windows](https://visualstudio.microsoft.com)
