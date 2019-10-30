@@ -1,6 +1,6 @@
 # Currently updating the project, the solution is incomplete
 
-# SQLite
+### SQLite
 
 Example using SQLite in Xamarin Forms 4.X
  
@@ -12,7 +12,7 @@ Example using SQLite in Xamarin Forms 4.X
 * [Android File Transfer](https://www.android.com/filetransfer/) - Browse and transfer files between your Mac computer and your Android device.
 * [Vysor Pro](https://www.vysor.io/) - Vysor puts your Android on your desktop. Utility for mirroring your Android physical device to your screen.
 
-# Licenses
+### Licenses
 
 This project uses some third-party assets with a license that requires attribution:
 
@@ -20,10 +20,10 @@ This project uses some third-party assets with a license that requires attributi
 - [Xamarin.Essentials ](https://www.nuget.org/packages/Xamarin.Essentials) : by James Montemagno
 - [Sqlite net pcl](https://www.nuget.org/packages/sqlite-net-pcl/) : by Frank A. Krueger 
 
-# Clean and Rebuild
+### Clean and Rebuild
 
 If you see build issues when pulling updates from the repo, try cleaning and rebuilding the solution.
 
-# Copyright and license
+### Copyright and license
 
 The MIT License (MIT) see [License file](https://github.com/jorgemht/SQLite/blob/master/LICENSE)
